@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+.background {
+    width: 1024px;
+    height: 600px;
+    background-color: gray;
+    padding: 20px 0px 0px 20px;
+    background-image: url("../images/background.png");
+}
+.outerbox {
+    width: 808px;
+    height: 544px;
+    background-color: #55B2D4;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background-image: url("../images/outerbox.png");
+    padding: 32px 0px 0px 32px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.wrapper__left {
+    width: 208px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper__left__header {
+    width: 100%;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #55B2D4;
+    margin: 22px 0px 7px 0px;
+}
+.today {
+    font-size: 9px;
+    font-family: Sci Fied Bitmap;
+    font-weight: 400;
+}
+.wrapper__left__body {
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+
+}
+.left__body__header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left__body__header__gray {
+    width: 148px;
+    height: 133px;
+    background-color: #C4C4C4;
+    margin: 20px 0px 12px 0px;
+}
+.left__body__header__line {
+    width: 148px;
+    border-top: 1px dotted #000000;
+    padding: 0px 0px 12px 0px;
+}
+.left__body__profile {
+    width: 100%;
+    height: 72px;
+    margin: 0px 0px 0px 30px;
+}
+.font__awesome__icons {
+    font-size: 12px;
+    margin: 0px 8px 8px 0px;
+}
+.font__awesome__name {
+    font-size: 9px;
+    font: Malgun Gothic;
+    font-weight: 700;
+    color: #999999;
+}
+.left__body__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 119px 0px 0px 30px;
+
+}
+.condition {
+    width: 59px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 11px;
+    color: gray;
+}
+#condition {
+    width: 140px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 11px;
+    color: gray;
+}
+.wrapper__right {
+    width: 524px;
+    height: 440px;
+}
+
+
